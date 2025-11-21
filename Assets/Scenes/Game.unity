@@ -5015,11 +5015,11 @@ Transform:
   m_GameObject: {fileID: 38459757}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70546484, w: 0.708745}
-  m_LocalPosition: {x: -2.6, y: -2.1, z: 0}
+  m_LocalPosition: {x: -22.062418, y: -7.397828, z: 0.20536867}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 84862548}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.734}
 --- !u!1 &69178746
 GameObject:
@@ -5159,6 +5159,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69178746}
   m_CullTransparentMesh: 1
+--- !u!1 &84862547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 84862548}
+  m_Layer: 0
+  m_Name: "---karakt\xE4r---"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &84862548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84862547}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.462418, y: 5.297828, z: -0.20536867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 469907497}
+  - {fileID: 38459760}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &137410246
 GameObject:
   m_ObjectHideFlags: 0
@@ -6744,12 +6777,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469907490}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.79, y: -0.96, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22.252419, y: -6.257828, z: 0.20536867}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 84862548}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &469907498
 MonoBehaviour:
@@ -16169,8 +16202,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 469907497}
-  - {fileID: 38459760}
+  - {fileID: 84862548}
   - {fileID: 1702099870}
   - {fileID: 1392512067}
   - {fileID: 11588837}
